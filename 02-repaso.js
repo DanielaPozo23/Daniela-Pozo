@@ -12,6 +12,7 @@ array= [[3,4,5,6],[7,8,9]];
 
 datosArreglo();*/
 
+// crea un bucle que se repite sobre objetos iterables
 /*for of
 const datosArreglo= () => {
     for ( const datos of array){
