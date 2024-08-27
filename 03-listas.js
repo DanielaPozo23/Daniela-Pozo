@@ -10,7 +10,7 @@ const Arreglo = () => {
 Arreglo()
 //let arreglo = ["Dany", 18, false]
 
-//const info = () => {
+const info = () => {
     /*for (let arr in arreglo) {  //lis in datos para leer la lista
         console.log(arreglo[arr]);  //`${lis}:${datos[lis]}`
     }
@@ -32,10 +32,14 @@ valores.map((data,index)=>{
     console.log(`${key}:${value}`);
 })
  */
+//}
 
-/* }
+datos.map((data)=>{
+    console.log(`el nombre es:${data.nombre}${data.apellido} y tiene ${data.edad}años`)
 
-info(); */
+})
+}
+info()
 
 
 
