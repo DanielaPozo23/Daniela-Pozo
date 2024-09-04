@@ -20,5 +20,5 @@ class Persona{
 }
 persona1=new Persona("Dany",18,"F","Balancan")
 persona1.nombre="Juan";
-console.log(persona1._nombrenombre);
+console.log(persona1._nombre);
 persona1.saludar()
