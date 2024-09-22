@@ -1,9 +1,5 @@
 //Regla sintáctica JS
 
-
-
-
-
 class Persona{
     constructor(nombre, apellido, edad, sexo,dirreccion, telefono, correo, horario){
     this._nombre  = nombre
