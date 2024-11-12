@@ -1,22 +1,20 @@
-//import logo from './logo.svg';
-import "./App.css";
-import Estados from "./components/Estados";
-//import Propiedades from "./components/Propiedades";
 
-/* 
-import Otro from "./Otro";
-import Formulariocss from './Formulariocss';
-import Formularioboot from './components/Formularioboot'; */
+import "./App.css";
+import { BrowserRouter as Router} from "react-router-dom";
+import Estados from "./components/Estados";
+import Rutas from "./routes/Rutas";
+import Menu from "./components/inicio/Menu";
+
 function App() {
- /*  const variable1=5;
-  const variable2=5; */
+
   return (
-    <>
-    <Estados/>
-      {/* <Propiedades variable1={variable1} variable2={variable2} nombre="Dany" varbol={true}/>
-      <Propiedades variable1={variable1} variable2={variable2} nombre="Juan" varbol={false}/>
-      */}
-    </>
+    <Router>
+    <div className="container-fluid">
+    <Menu/>
+    <Rutas/>
+  
+      </div>
+    </Router>
   );
 }
 
